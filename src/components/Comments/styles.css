@@ -1,0 +1,15 @@
+.card-comment{
+    background-color: var(--color-white);
+    width: 960px;
+    height: 74px;
+    border: 1px solid var(--color-blue);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-comment p{
+    color: var(--color-blue);
+    font-size: 16px;
+}
