@@ -1,0 +1,25 @@
+footer{
+    background-color: var(--color-blue);
+    height: 120px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-info{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 0px;
+}
+
+@media(max-width: 320px){
+    .footer-info{
+        display: block;
+        text-align: center;
+    }
+}

@@ -2,6 +2,7 @@ import './styles.css';
 import HeaderCar from '../../components/HeaderCar';
 import CardCar from '../../components/CardCar';
 import Comments from '../../components/Comments';
+import FooterCar from '../../components/FooterCar';
 
 const MainPage = () => {
   return (
@@ -27,13 +28,7 @@ const MainPage = () => {
           </div>
         </section>
       </main>
-      <footer>
-        <div className="footer-info">
-          <p>@dscarrostop</p>
-          <address>Rua da Pipoca, 150</address>
-        </div>
-
-      </footer>
+      <FooterCar/>
     </>
   )
 }

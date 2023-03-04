@@ -36,21 +36,12 @@
     margin-bottom: 25px;
 }
 
-footer{
-    background-color: var(--color-blue);
-    height: 120px;
-    color: var(--color-white);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+@media(max-width: 320px){
+    .catalog-container h2{
+        font-size: 20px;
+    }
 
-.footer-info{
-    width: 960px;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer p{
-    margin: 0px;
+    .comments h2{
+        font-size: 20px;
+    }
 }

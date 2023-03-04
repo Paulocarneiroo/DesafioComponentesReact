@@ -18,3 +18,19 @@
     font-size: 20px;
     color: var(--color-grey);
 }
+
+@media(max-width: 320px){
+    .card-car{
+        width: 280px;
+        height: 248px;
+    }
+
+    .card-car img{
+        width: 260px;
+        height: 194.46px;
+    }
+
+    .card-car p{
+        font-size: 16px;
+    }
+}

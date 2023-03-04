@@ -13,3 +13,14 @@
     color: var(--color-blue);
     font-size: 16px;
 }
+
+@media(max-width: 320px){
+    .card-comment{
+        width: 280px;
+        height: 146px;
+    }
+
+    .card-comment p{
+        text-align: center;
+    }
+}
